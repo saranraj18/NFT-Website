@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2.3rem;
+  border-bottom: 1px solid black;
+}
+
+.nav-start > span {
+  font-family: "Monoton", cursive;
+  font-size: 1.8rem;
+}
+
+.nav-mid {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.nav-mid > span {
+  cursor: pointer;
+}
+
+.nav-end {
+  border: 1px solid black;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5rem;
+  color: #fff;
+  background-color: #000;
+  font-size: 0.8rem;
+  cursor: pointer;
+}

@@ -1,0 +1,89 @@
+.pop {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7rem;
+  margin-right: 6.5rem;
+  margin-top: 2.5rem;
+}
+
+.pop-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.pop-title {
+  font-family: "Monument Extended";
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.pop-subtitle {
+  font-weight: bold;
+}
+
+.pop-content {
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  color: #fff;
+  width: min-content;
+  padding: 0.7rem;
+  margin-bottom: 2rem;
+  border-radius: 0.7rem;
+}
+
+.col-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+
+.col-header-img {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 0.9rem;
+}
+
+.col-header-img > img {
+  height: 3rem;
+  width: 3rem;
+  object-fit: fill;
+}
+
+.col-header-title,
+.col-content-small {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
+  justify-content: space-between;
+}
+
+.col-content {
+  display: flex;
+}
+
+.col-content-rect {
+  width: 6rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+}
+
+.col-content-small > img {
+  width: 7.5rem;
+  height: 4.5rem;
+  object-fit: cover;
+  border-radius: 1rem;
+}

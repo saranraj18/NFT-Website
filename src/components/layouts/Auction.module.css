@@ -1,0 +1,140 @@
+.auction {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.auction-left {
+  display: flex;
+  width: 46%;
+  justify-content: flex-end;
+}
+
+.auction-right {
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+  justify-content: flex-start;
+}
+
+.auc-left-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 2.5rem;
+}
+
+.auc-left-stack-top,
+.auc-left-stack-bottom {
+  border-radius: 2.2rem;
+  height: 9.2rem;
+  width: 5.5rem;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.auc-left-stack-top > img,
+.auc-left-stack-bottom > img {
+  height: 8.5rem;
+  width: auto;
+  align-self: last baseline;
+}
+
+.auc-left-focused {
+  border-radius: 5rem;
+  height: 19rem;
+  width: 11rem;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.auc-left-focused > img {
+  height: 15rem;
+  width: auto;
+  align-self: last baseline;
+}
+
+.auc-right-header {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.auc-header-dash {
+  background-color: #2f2e2e;
+  border-radius: 5rem;
+  width: 0.25rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.auc-right-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+}
+
+.auc-content-title {
+  color: #cc0032;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  margin-right: 0.8rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.auc-content-number {
+  color: #828282;
+  font-size: 0.9rem;
+}
+
+.auc-content-attr {
+  display: flex;
+  flex-direction: column;
+}
+
+.tt {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4.5rem;
+  margin-top: 1.75rem;
+}
+
+.tt-title {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.8rem;
+}
+
+.tt-text {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.auc-content-btn {
+  background-color: #cc0032;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  padding: 0.55rem 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.auc-content-dots {
+  display: flex;
+  margin-left: 3.5rem;
+}
+
+.auc-content-dots > div {
+  background-color: #aca7a7;
+  height: 0.4rem;
+  width: 0.4rem;
+  border-radius: 50%;
+  margin-right: 0.7rem;
+  transition: background-color 0.3s ease;
+}
